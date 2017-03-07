@@ -73,7 +73,7 @@ Vagrant.configure(2) do |config|
   # Custom box provision script
   config.vm.provision "shell", inline: <<-SHELL
      sudo apt-get update -y
-     sudo apt-get install -y python python-dev python-pip #python-virtualenv
+     sudo apt-get install -y python python-dev python-pip
 
      cd /vagrant
 
